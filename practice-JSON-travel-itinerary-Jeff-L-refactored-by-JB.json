@@ -1,0 +1,53 @@
+{
+"tripName": "summerVacation",
+"traveler": 
+    {
+    "name": 
+        { 
+            "first": "Jeff",
+            "middle": "middle",
+            "last": "Lininger"
+        },
+    "contact":
+        {
+            "email": "someemail@gmail.com",
+            "phone": "555-555-5555"
+        }
+    }, 
+"Destinations":
+    {
+    "Saint Martin": 
+        {  
+        "transportation":
+            {
+            "mode": "train",
+            "cost": 300
+            },
+        "arrivalDate": "2025-08-01",
+        "departureDate": "2025-08-04",
+        "activities":
+            {
+                "concert":
+                {"activityTime": "7:00 PM"}
+            }
+        },
+    "Just Martin":
+        {
+        "transportation":
+            {
+            "mode": "bus",
+            "cost": 100
+            },
+        "arrivalDate": "2025-08-01",
+        "departureDate": "2025-08-04",
+        "activities":
+            {
+            "concert":
+            {"activityTime": "7:00 PM"}
+            }
+        }
+    }
+}
+
+
+
