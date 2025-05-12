@@ -1,6 +1,6 @@
 {
 "name": "summer vacation",
-"taveler": 
+"traveler": 
     {
     "name":
         {
@@ -10,41 +10,45 @@
         },
     "contact": 
         {
-        "email": "me@myemail.com"
-        "phone": 123-456-7890
+        "email": "me@myemail.com",
+        "phone": 123456789
         }
     },
 "Destinations":
     {
-    "location": "Nashville, TN", 
+    "Nashville":
         {
         "arrival": "2025-07-01",
         "departure": "2025-07-05",
         "activities":
             {
-            "activityName":  "concert",
-            "activityTime": "7:00 PM"
-            },
-            {
-            "activityName":  "i'm an activity",
-            "activityTime": "10:00 AM"
+                "concert":
+                    {   
+                    "activityTime": "7:00 PM"
+                    },
+                "i'm an activity":
+                    {
+                    "activityTime": "10:00 AM"
+                    }
             }
         },
-    },
-    {
-    "location": "Savannah", 
-    "arroval": "2025-07-05",
-    "departure": "225-07-10",
-    "activities":
+    "Savannah":
         {
-        "activityName":  "museum",
-        "activityTime": "10:00 AM"
-        },
-        {
-        "activityName":  "beach",
-        "activityTime": "1:00 PM"
+            "arrival": "2025-07-05",
+            "departure": "225-07-10",
+            "activities":
+            {
+                "museum":
+                {
+                "activityTime": "1:00 PM"
+                },
+                "beach":
+                {
+                "activityTime": "1:00 PM"
+                }
+            }
         }
-    }   
+    } 
 }
       
 
